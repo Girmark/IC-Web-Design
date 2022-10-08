@@ -1,0 +1,195 @@
+body{
+    background-image:url(./img/web-bg.webp) ;
+    background-size:cover ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.nav{
+    position:sticky;
+    background-color:#c8c6c6;
+    width: 100%;
+    padding: 4px 0px 6px 0px;
+}
+ul{
+    text-align: center;
+    justify-content: center;
+}
+.nav li {
+    list-style: none;
+    display: inline;
+}
+.nav a{
+    text-decoration: none;
+    padding: 6px 10px 6px 0px;
+    color: rgb(2, 2, 2);
+}
+.h1{
+   text-align: center; 
+   color:white;
+}
+.p{
+    text-align: center;
+}
+.container{
+    justify-content: center;
+}
+.container .child-logo{
+    display:flex;
+    padding: 0px 60px 0px 60px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    text-align: center;
+    opacity: 60%;
+}
+.container .child-logo img{
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    opacity: 100%;
+}
+.child-logo p{
+    text-align:center;
+    color:black;
+    font-size: 18px;
+}
+.child-logo .html{
+    background-color: white;
+    width: 400px;
+    height: 532px;
+}
+.child-logo .css{
+    background-color: white;
+    width: 400px;
+    height: 532px;
+}
+.child-logo .web-design{
+    background-color: white;
+    width: 400px;
+    height: 532px;
+}
+footer{
+    background-color: rgb(80, 80, 255);
+    height: 5%;
+    padding: 0px 0px 0px 0px;
+}
+.footer, p{
+    text-align:center;
+    padding: 7px 0px 5px 0px;
+
+}
+.container :hover.child-logo{
+    opacity: 100%;
+    transition: 1s;
+    position:sticky;
+}
+.child-logo .html:hover{
+    border: rgb(167, 71, 33) solid;
+    transition: 0.5s;
+}
+.child-logo .css:hover{
+    border: rgb(81, 139, 255) solid;
+    transition: 0.5s;
+}
+.child-logo .web-design:hover{
+    border: rgb(45, 53, 59) solid;
+    transition: 0.5s;
+}
+.nav .contact{
+    display: inline-flex;
+    background-color: #5666ed;
+    border-radius: 4px;
+}
+.contact a{
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px 8px 8px;
+}
+.contact ul{
+    margin: 0;
+    padding: 0;
+}
+.contact ul li {display: inline-block;}
+.contact ul li:hover {
+background: rgb(247, 247, 247);
+transition: 1s;
+}
+.contact a:hover{
+    color:black;
+}
+.contact ul li:hover ul {display: block;}
+.contact li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+.contact ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+.contact ul li ul li a {
+display:block !important;
+} 
+.contact ul li ul li:hover {
+background: rgb(255, 255, 255);
+}
+
+/* For desktop: */
+.nav {width: 100%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+     width: 100%;
+}
+.container .child-logo{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ .nav .contact{
+  position: relative;
+  transition: background 400ms;
+  color: rgb(255, 255, 255);
+  background-color: #5666ed;
+  padding: 8px 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12;
+  outline: 0;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: inline-flex;
+ }
+
+footer{
+    width: 100%;
+}
+.child-logo .html:hover{
+    border: black solid;
+}
+}
