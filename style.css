@@ -86,15 +86,15 @@ footer{
     position:sticky;
 }
 .child-logo .html:hover{
-    border: rgb(167, 71, 33) solid;
+    box-shadow: 10px 10px 10px 0px;
     transition: 0.5s;
 }
 .child-logo .css:hover{
-    border: rgb(81, 139, 255) solid;
+    box-shadow: 10px 10px 10px 0px;
     transition: 0.5s;
 }
 .child-logo .web-design:hover{
-    border: rgb(45, 53, 59) solid;
+    box-shadow: 10px 10px 10px 0px;
     transition: 0.5s;
 }
 .nav .contact{
@@ -155,6 +155,7 @@ background: rgb(255, 255, 255);
 body{
     margin: 0;
     padding: 0;
+    max-width:fit-content;
 }
 nav{
      width: 100%;
