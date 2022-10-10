@@ -191,6 +191,12 @@ footer{
     width: 100%;
 }
 .child-logo .html:hover{
-    border: black solid;
+    box-shadow: 10px 10px 10px 0px;
+}
+.child-logo .css:hover{
+    box-shadow: 10px 10px 10px 0px;
+}
+.child-logo .web-design{
+    box-shadow: 10px 10px 10px 0px;
 }
 }
