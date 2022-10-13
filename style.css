@@ -169,6 +169,10 @@ body{
 nav{
      width: 100%;
 }
+.contact ul li ul li{
+    overflow: hidden;
+    display: flex;
+}
 .h1{
     text-align: center;
 }
